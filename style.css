@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* ----------------------nav et header--------------------- */
+.text-red{
+    color: rgb(255, 57, 57);
+    font-family: Poppins;
+}
+.business{
+    font-family:Monserrat ;
+}
+.bg-red{
+    background-color: rgb(71, 7, 7);
+}
+.bg-red a:hover{
+    border: 1px solid rgb(71, 7, 7) ;
+    background-color: burlywood;
+}
+/* ----------------------------section1 home--------------------------- */
+.grand{ 
+    height: 100vh;
+}
+.card-color{
+    background-color: burlywood;
+}
+.visit-btn{
+    background-color:rgb(71, 7, 7) ;
+}
+.position-home-visit{
+    position: absolute;
+    top:170px;
+    left: 0;
+    z-index: 10;
+}
+/* -----------------------------------------section 02 home------------------------------ */
+.bg{
+    background-color:rgba(71, 7, 7, 0.8) ;
+}
