@@ -41,6 +41,50 @@ body{
     z-index: 10;
 }
 /* -----------------------------------------section 02 home------------------------------ */
+
+/* ------------------------------products------------------------------------ */
+/* **************secion1************* */
+.position1-prod{
+    position: relative;
+    margin-bottom: 20%;
+}
+.position1-1-prod{
+   
+    position: absolute;
+    right:22%;
+    top: -15%;
+}
+.position1-2-prod{
+    position: absolute;
+    left: 15%;
+    bottom: -20%;
+}
 .bg{
     background-color:rgba(71, 7, 7, 0.8) ;
+}
+@media screen and (max-width:768px){
+    .media{
+        position: relative;
+    }
+    .media .card{
+        width: 90vw;
+        position: absolute;
+        top: 250%;
+    }
+    .d-flex{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .position1-prod{
+        position: relative;
+    }
+    .position1-1-prod{
+        position: absolute;
+        left: 150px;
+    }
+    .position1-2-prod{
+        position: absolute;
+        left: 70%;
+    }
 }
