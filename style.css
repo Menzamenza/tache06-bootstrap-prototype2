@@ -133,4 +133,11 @@ body{
     .marge{
         margin: 100% 0;
     }
+    .grand{
+        width: 95%;
+    }
+    .nav a{
+        font-size: small;
+        padding: 10px;
+    }
 }
